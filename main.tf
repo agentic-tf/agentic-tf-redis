@@ -1,5 +1,3 @@
-}
-
 resource "azurerm_redis_cache" "this" {
   name                = var.name
   location            = var.location
